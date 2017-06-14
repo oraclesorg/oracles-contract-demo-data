@@ -1,8 +1,8 @@
 pragma solidity ^0.4.11;
 
-import "oracles-key/KeyClass.sol";
-import "oracles-validator/ValidatorClass.sol";
-import "oracles-ballot/BallotClass.sol";
+import "oracles-contract-key/KeyClass.sol";
+import "oracles-contract-validator/ValidatorClass.sol";
+import "oracles-contract-ballot/BallotClass.sol";
 
 contract DemoData is KeyClass, ValidatorClass, BallotClass {
     address[] private demoInitialKeys = [0x70de02424c1b3b1ada0fab8dd1d70e04727bd082];
