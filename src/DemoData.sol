@@ -1,4 +1,4 @@
-pragma solidity ^0.4.14;
+pragma solidity ^0.4.18;
 
 import "oracles-contract-key/KeyClass.sol";
 import "oracles-contract-validator/ValidatorClass.sol";
